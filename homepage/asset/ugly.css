@@ -1,0 +1,169 @@
+html{
+    background-image: url("uglyBackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: relative;
+    min-height: 100%;
+}
+
+.intro {
+    position: relative;
+    margin-top: 3em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:aqua;
+}
+
+.topnav{
+    background-color: green;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.topnav a {
+  float: left;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: blue;
+  color: grey;
+}
+
+.myPic img{
+    padding-top: 2em;
+    width:300px;
+    height:200px;
+}
+
+#myPic{
+    padding-top: 4em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.contact {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: cursive;
+}
+
+.Education{
+    padding-top: 6em;
+    color:white;
+    text-align: left;
+}
+
+h2{
+    text-align: center;
+    background-color: salmon;
+}
+
+.Education img{
+    float: right;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 100px;
+    margin-right: 2em;
+}
+
+li{
+    padding: 1em;
+    font-family: cursive;
+}
+
+.Projects{
+    padding-top: 6em;
+}
+
+.Experience{
+    padding-top: 6em;
+}
+
+.Offer{
+    padding-top: 6em;
+}
+
+.Projects img{
+    float: right;
+    width: 28em;
+    height: 15em;
+    margin-bottom: 100px;
+    margin-right: 2em;
+}
+
+.projectList{
+    padding-bottom: 4em;
+}
+
+
+.Experience img{
+    float: right;
+    width: 28em;
+    height: 15em;
+    margin-bottom: 100px;
+    margin-right: 2em;
+}
+
+h3 {
+    margin-left: 2em;
+    font-size: xx-large;
+    color: bisque;
+}
+
+h4 {
+    margin-left: 4em;
+    color: bisque;
+}
+
+body {
+    min-height: 400px;
+    margin-bottom: 100px;
+    padding-top: 65px;
+    padding-left: 200px;
+    clear: both;
+    color: white;
+}
+
+/*
+    adapted from https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp
+*/
+/* The sidebar menu */
+.sidenav {
+    color:gold;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: purple; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 3em;
+  }ß
